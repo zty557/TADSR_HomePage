@@ -6,36 +6,36 @@ import { onMounted, ref } from 'vue';
 const currentSlide = ref(0);
 const imageSlides = [
   {
-    first: "/TADSR_Homepage/compare/147/lq.png",
-    second: "/TADSR_Homepage/compare/147/sr.png"
+    first: "/TADSR_HomePage/compare/147/lq.png",
+    second: "/TADSR_HomePage/compare/147/sr.png"
   },
   {
-    first: "/TADSR_Homepage/compare/0166x4d/lq.png",
-    second: "/TADSR_Homepage/compare/0166x4d/sr.png"
+    first: "/TADSR_HomePage/compare/0166x4d/lq.png",
+    second: "/TADSR_HomePage/compare/0166x4d/sr.png"
   },
   {
-    first: "/TADSR_Homepage/compare/0263x4d/lq.png",
-    second: "/TADSR_Homepage/compare/0263x4d/sr.png"
+    first: "/TADSR_HomePage/compare/0263x4d/lq.png",
+    second: "/TADSR_HomePage/compare/0263x4d/sr.png"
   },
   {
-    first: "/TADSR_Homepage/compare/0338x4d/lq.png",
-    second: "/TADSR_Homepage/compare/0338x4d/sr.png"
+    first: "/TADSR_HomePage/compare/0338x4d/lq.png",
+    second: "/TADSR_HomePage/compare/0338x4d/sr.png"
   },
   {
-    first: "/TADSR_Homepage/compare/0035x4d/lq.png",
-    second: "/TADSR_Homepage/compare/0035x4d/sr.png"
+    first: "/TADSR_HomePage/compare/0035x4d/lq.png",
+    second: "/TADSR_HomePage/compare/0035x4d/sr.png"
   },
   {
-    first: "/TADSR_Homepage/compare/0007x4d/lq.png",
-    second: "/TADSR_Homepage/compare/0007x4d/sr.png"
+    first: "/TADSR_HomePage/compare/0007x4d/lq.png",
+    second: "/TADSR_HomePage/compare/0007x4d/sr.png"
   },
   {
-    first: "/TADSR_Homepage/compare/0279x4d/lq.png",
-    second: "/TADSR_Homepage/compare/0279x4d/sr.png"
+    first: "/TADSR_HomePage/compare/0279x4d/lq.png",
+    second: "/TADSR_HomePage/compare/0279x4d/sr.png"
   },
   {
-    first: "/TADSR_Homepage/compare/151/lq.png",
-    second: "/TADSR_Homepage/compare/151/sr.png"
+    first: "/TADSR_HomePage/compare/151/lq.png",
+    second: "/TADSR_HomePage/compare/151/sr.png"
   }
 ];
 
@@ -64,15 +64,15 @@ onMounted(() => {
       <img src="/TADSR_files/TADSR.png" alt="" style="width: 170px;">
     </div>
     
-  <h1 style="text-align: center; font-size: 30px; margin: 15px 0px 5px 0px;"><strong>Time-Aware One Step Diffusion Network For Real-World Image Super-Resolution</strong></h1>
+  <h1 style="text-align: center; font-size: 30px; margin: 15px 0px 5px 0px;"><strong>Time-Aware One Step Diffusion Network for Real-World Image Super-Resolution</strong></h1>
 
   <p id="authors" style="text-align: center; margin: 10px 0px;">
     <a href="" style="font-size: 20px;" >Tainyi Zhang<sup>1</sup></a>, 
     <a href="https://adam-duan.github.io/" style="font-size: 20px;" >Zheng-Peng Duan<sup>1</sup></a>, 
-    <a href="https://scholar.google.com/citations?user=RZLYwR0AAAAJ&hl=zh-CN&oi=ao" style="font-size: 20px;" >Chun-Le Guo<sup>1,3,&dagger;</sup></a>,
     <a href="" style="font-size: 20px;" >Peng-Tao Jiang<sup>2</sup></a>, 
     <a href="" style="font-size: 20px;" >Bo Li<sup>2</sup></a>,<br>
     <a href="" style="font-size: 20px;" >MingMing Cheng<sup>1</sup></a>,
+    <a href="https://scholar.google.com/citations?user=RZLYwR0AAAAJ&hl=zh-CN&oi=ao" style="font-size: 20px;" >Chun-Le Guo<sup>1,3,&dagger;</sup></a>,
     <a href="https://li-chongyi.github.io/" style="font-size: 20px;">Chongyi Li<sup>1,3</sup></a>
     <br>
     <span style="font-size: 18px; font-weight: bold; ;"><sup>1</sup>VCIP, CS, Nankai University. </span> &nbsp;&nbsp;
@@ -133,7 +133,7 @@ onMounted(() => {
   </div>
   <div class="carousel-indicators">
     <span 
-      v-for="(slide, index) in imageSlides" 
+      v-for="(_, index) in imageSlides" 
       :key="index"
       :class="['indicator', { active: index === currentSlide }]"
       @click="currentSlide = index"
