@@ -207,11 +207,15 @@ onMounted(() => {
   <h4>BibTex</h4>
   <pre class="bibtex-code">
     <code>
-    @article{tadsr,
-      title={Time-Aware One Step Diffusion Network for Real-World Image Super-Resolution},
-      author={Tianyi Zhang, Zhengpeng Duan, Pengtao jiang, Bo Li, Mingming Cheng, Chunle Guo, Chongyi Li},
-      year={2024}
-    }
+      @misc{zhang2025timeawarestepdiffusionnetwork,
+        title={Time-Aware One Step Diffusion Network for Real-World Image Super-Resolution}, 
+        author={Tainyi Zhang and Zheng-Peng Duan and Peng-Tao Jiang and Bo Li and Ming-Ming Cheng and Chun-Le Guo and Chongyi Li},
+        year={2025},
+        eprint={2508.16557},
+        archivePrefix={arXiv},
+        primaryClass={eess.IV},
+        url={https://arxiv.org/abs/2508.16557}, 
+      }
     </code>
   </pre>
 </div>
