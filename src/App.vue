@@ -220,14 +220,6 @@ onMounted(() => {
   </pre>
 </div>
 
-  <div class="content">
-    <h4>Acknowledgements</h4>
-    <p style="font-size: 15px; font-weight: bold;">
-      We sincerely thank Samsung Research for providing valuable feedback, and our friend <a href="Men1scus - Overview">Ziheng Zhang</a> for his assistance in developing this website.
-    </p>
-
-
-  </div>
 
   <footer class="footer">
     <div class="container">
