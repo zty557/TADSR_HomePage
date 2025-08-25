@@ -331,9 +331,14 @@ onMounted(() => {
 }
 
 a, a:visited {
-  color: #FFF;
+  color: #224b8d;
   font-weight: 300;
 }
+
+.button-container a:visited{
+  color: #FFF;
+}
+
 .content img {
   display: inline-block; /* 保持图片为行内块元素 */
 }
