@@ -83,7 +83,7 @@ onMounted(() => {
   </p>
 
   <div class="button-container">
-    <a href="http://arxiv.org/abs/2501.05177" target="_blank" class="custom-button">
+    <a href="https://arxiv.org/abs/2508.16557" target="_blank" class="custom-button">
       <svg class="arxiv-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="margin-right: 5px;"> 
         <path
          fill="currentColor"
@@ -207,12 +207,10 @@ onMounted(() => {
   <h4>BibTex</h4>
   <pre class="bibtex-code">
     <code>
-    @inproceedings{liu2025TADSR,
-      title={TADSR: Robust Blind Face Restoration with Personal Identification},
-      author={Liu, Siyu and Duan, Zheng-Peng and OuYang, Jia and Fu, Jiayi and Park,
-              Hyunhee and Liu, Zikun and Guo, Chunle and Li, Chongyi},
-      booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-      year={2025}
+    @article{tadsr,
+      title={Time-Aware One Step Diffusion Network for Real-World Image Super-Resolution},
+      author={Tianyi Zhang, Zhengpeng Duan, Pengtao jiang, Bo Li, Mingming Cheng, Chunle Guo, Chongyi Li},
+      year={2024}
     }
     </code>
   </pre>
@@ -333,7 +331,7 @@ onMounted(() => {
 }
 
 a, a:visited {
-  color: #224b8d;
+  color: #FFF;
   font-weight: 300;
 }
 .content img {
