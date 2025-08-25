@@ -336,7 +336,7 @@ a, a:visited {
 }
 
 .button-container a:visited{
-  color: #FFF;
+  color: #FFF; 
 }
 
 .content img {
